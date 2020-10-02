@@ -1,0 +1,44 @@
+.main {
+  margin: 100px 30px 0 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.main .showCar {
+  text-align: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+}
+.main .showCar img {
+  width: 100%;
+  height: 400px;
+}
+.main .changeColor {
+  /* display: flex;
+  flex-direction: column; */
+  text-align: center;
+  flex: 1;
+}
+.main .changeColor .color {
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+.main .changeColor .color button {
+  border: 0;
+  border-radius: 5px;
+  padding: 5px;
+}
+.red {
+  background-color: red;
+}
+.silver {
+  background-color: silver;
+}
+.black {
+  background-color: black;
+  color: white;
+}
